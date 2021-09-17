@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* contact.html */
+.contact-form {
+  background-color: rgba(228, 228, 228, 0.5);
+  padding: 5px 20px 20px;
+  margin-top: 5px;
+}
+
+.contact-form-item {
+  margin-top: 20px;
+}
+
+.contact-form-item-name {
+  font-weight: bold;
+}
+
+.contact-form-item-input {
+  margin-top: 5px;
+  font-size: 16px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+}
+
+.contact-form-item-textarea {
+  font-size: 16px;
+	width: 100%;
+  height: 20vh;
+	padding: 5px;
+	border: 1px solid #ccc;
+	appearance: none;
+  resize: none;
+}
+
+.contact-form-item-required {
+  color: #cd0224;
+  margin-left: 5px;
+}
+
+.contact-form-submit {
+  margin: 20px auto 0;
+	padding: 10px;
+	border: none;
+  display: block;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form-submit:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+  background-color: red;
+}
+
+/* confirm.php */
+.confirm-btn {
+  text-align: center;
+  margin: 20px auto 0;
+}
+
+.text-submit {
+  margin: 0 20px;
+	padding: 10px;
+	border: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.text-submit:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+  background-color: red;
+}
+
+/* thanks.html */
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  display: inline-block;
+  text-align: left;
+}
+
+.thanks-f {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .comment-wrap {
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .thanks-f {
+  position: unset;
+  }
+}
